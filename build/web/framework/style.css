@@ -1,0 +1,284 @@
+header {
+    float: left;
+    display: block;
+    text-align: center;
+    padding-left: 50px;
+    z-index: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .65);
+}
+
+header ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin: 10px;
+    float: left;
+    display: inline;
+    color: whitesmoke;
+}
+
+#login_button {
+    display: inline-block;
+    background-color:#07c;
+    list-style-position: inside;
+/*
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border: 1px solid grey;
+*/
+    margin-left: 39%;
+    padding-left: 3%;
+    padding-right: 1%;
+}
+
+#login_button:before {
+    padding-left: 5px;
+    content: '\f007';
+    font-family: 'FontAwesome';
+    float: left;
+    margin-left: -1.5em;
+    color: white;
+}
+/*******************navbar*****************/
+
+.resize {
+    margin-left: 13%;
+    padding-left: 1%;
+    margin-top: .2%;
+    float: left;
+    display: inline;
+    width: 4em;
+    height: 4em;
+}
+
+body {
+    background-image: url('../images/demo.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    overflow-x: hidden;
+}
+
+footer {
+    padding-left: 40%;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    /* Height of the footer */
+    
+    position: fixed;
+    margin: 0px;
+    z-index: 9000;
+    overflow-y: scroll;
+    background-color: whitesmoke;
+}
+
+.active {
+    color:whitesmoke;
+   
+    list-style-position: inside;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid gainsboro;
+}
+/***********************************Login***************************/
+
+.formed ,.hours {
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 2em 2em 2em ;
+    width: 300px;
+    max-width: 85%;
+    margin: 100px auto 0;
+    box-shadow: 0 0 1em #222;
+    border-radius: 5px;
+}
+
+p {
+    margin: 0 0 3em 0;
+    position: relative;
+}
+
+label {
+    display: block;
+    font-size: 1.2em;
+    margin: 0 0 .5em;
+    color: #f5f5f5;
+}
+
+input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none
+}
+
+input[type="text"],
+input[type="password"] {
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    font-size: 1em;
+    padding: .8em .5em;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background: #fff
+}
+
+    input[type="submit"] {
+
+        background: #2F558E;
+        box-shadow: 0 3px 0 0 #1D3C6A;
+        border-radius: 5px;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        font-size: 1.2em;
+        line-height: 1.2em;
+        margin: 2em 0 0;
+        outline: none;
+        padding: .4em 0;
+        text-shadow: 0 1px #68B25B;
+
+    }
+/******************************Home*****************************************/
+
+.info {
+    display: block;
+    text-align: center;
+    padding: 1em 1em 2em;
+    max-width: 900px;
+    height: 400px;
+    max-height: 600px;
+    margin: 100px auto 0;
+    box-shadow: 0 0 1em #222;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: gray;
+    background-color: rgba(0, 0, 0, 0.55);
+    color: white;
+    font-size: 16px;
+}
+
+.info h1 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.info p {
+    padding-left: 7%;
+    padding-right: 7%
+}
+/***********************************about page ****************************************/
+
+.team-info {
+    text-align: center;
+    display: inline-grid;
+    background-color: rgba(0, 0, 0, .7);
+    margin-top: 5%;
+    padding-bottom: 15px;
+    color: azure;
+    box-shadow: 0 0 1em #222;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: gray;
+}
+
+.profile-image {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    width: 150px;
+    height: 120px;
+}
+
+.contact-image {
+    position: relative;
+    max-width: 25px;
+    max-height: 25px;
+    box-shadow: 0 0 1em #222;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: gray;
+    margin-top: 5px;
+}
+/************************************************** Register *************************/
+
+
+span {
+    border-radius: 5px;
+    display: inline-flex;
+    font-size: .85em;
+    text-align: center;
+    position: absolute;
+    background: #2F558E;
+    left: 105%;
+    top: 25px;
+    width: 180px;
+    padding: 7px 10px;
+    color: #fff;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+span:after {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-right-color: #2F558E;
+    border-width: 8px;
+    margin-top: -8px;
+}
+/************************************** Courses********************************************/
+.courses
+{
+    background-color: rgba(0,0,0,.8);
+    width: 100%;
+    height: auto;  
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 22px;
+    font-family: 'Amiri', serif;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+}
+
+.line{
+    
+    padding-top: 20px;
+    
+}
+.courses-submit ,.submitbtn{
+    width: 130px;
+    
+}
+.submit-button{
+  font-size: 18px;
+  display: inline-flex;
+  text-align: center;
+
+}
+
+
